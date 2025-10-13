@@ -1,0 +1,775 @@
+{
+    "_meta": {
+        "dependencies": {
+            "spell": [
+                "PHB",
+                "XGE",
+                "TCE",
+                "SummonerHB"
+            ]
+        },
+        "sources": [
+            {
+                "abbreviation": "SUM",
+                "authors": [
+                    "Markus Sørensen"
+                ],
+                "convertedBy": [
+                    "Markus Sørensen"
+                ],
+                "full": "The Summoner",
+                "json": "SummonerHB",
+                "url": "https://github.com/Hesor2/DND_5e_Summoner/Markus_Sørensen-Summoner.json",
+                "version": "1.0"
+            }
+        ]
+    },
+    "class": [
+        {
+            "canCastSpells": true,
+            "casterProgression": "1/2",
+            "classFeatures": [
+                "Eidolon|Summoner|SummonerHB|1",
+                "Link|Summoner|SummonerHB|1",
+                "Evolution Pool|Summoner|SummonerHB|1",
+                "Evolution Options|Summoner|SummonerHB|1",
+                "Spellcasting|Summoner|SummonerHB|2",
+                "Eidolic Restoration|Summoner|SummonerHB|2",
+                "Eidolic Conduit|Summoner|SummonerHB|3",
+                "Ability Score Improvement|Summoner|SummonerHB|4",
+                "Maker's Call|Summoner|SummonerHB|6",
+                "Eidolic Strikes|Summoner|SummonerHB|6",
+                "Shared Vitality|Summoner|SummonerHB|7",
+                "Ability Score Improvement|Summoner|SummonerHB|8",
+                "Aspect|Summoner|SummonerHB|10",
+                "Ability Score Improvement|Summoner|SummonerHB|12",
+                "Life Bond|Summoner|SummonerHB|14",
+                "Ability Score Improvement|Summoner|SummonerHB|16",
+                "Greater Aspect|Summoner|SummonerHB|18",
+                "Ability Score Improvement|Summoner|SummonerHB|19",
+                "Perfect Symbiosis|Summoner|SummonerHB|20"
+            ],
+            "classSpells": [
+                "Blade Ward",
+                "Guidance",
+                "Light",
+                "Mage Hand",
+                "Resistance",
+                "Thaumaturgy",
+                "Frostbite|XGE",
+                "Mind Sliver|TCE",
+                "Vicious Mockery",
+                "Booming Blade|TCE",
+                "Green-Flame Blade|TCE",
+                "Bless",
+                "Bane",
+                "Command",
+                "Detect Magic",
+                "Detect Evil and Good",
+                "Heroism",
+                "Protection from Evil and Good",
+                "Shield of Faith",
+                "Thunderous Smite",
+                "Wrathful Smite",
+                "Searing Smite",
+                "Ensnaring Strike",
+                "Zephyr Strike|XGE",
+                "Aid",
+                "Calm Emotions",
+                "Detect Thoughts",
+                "Hold Person",
+                "Mirror Image",
+                "Lesser Restoration",
+                "Locate Object",
+                "Magic Weapon",
+                "Misty Step",
+                "Silence",
+                "Spiritual Weapon",
+                "Warding Bond",
+                "Branding Smite",
+                "Summon Beast|TCE",
+                "Summon Undead|TCE",
+                "Aura of Vitality",
+                "Beacon of Hope",
+                "Bestow Curse",
+                "Counterspell",
+                "Dispel Magic",
+                "Fear",
+                "Hypnotic Pattern",
+                "Spirit Guardians",
+                "Spirit Shroud|TCE",
+                "Blinding Smite",
+                "Tongues",
+                "Water Breathing",
+                "Summon Fey|TCE",
+                "Summon Shadowspawn|TCE",
+                "Banishment",
+                "Death Ward",
+                "Dimension Door",
+                "Freedom of Movement",
+                "Greater Invisibility",
+                "Guardian of Faith",
+                "Locate Creature",
+                "Resilient Sphere",
+                "Staggering Smite",
+                "Summon Aberration|TCE",
+                "Summon Construct|TCE",
+                "Summon Elemental|TCE",
+                "Banishing Smite",
+                "Circle of Power",
+                "Greater Restoration",
+                "Hold Monster",
+                "Telepathic Bond",
+                "Synaptic Static|XGE",
+                "Wall of Force",
+                "Summon Celestial|TCE"
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2
+                        ]
+                    ],
+                    "title": "Spell Slots per Spell Level"
+                }
+            ],
+            "hd": {
+                "faces": 8,
+                "number": 1
+            },
+            "name": "Summoner",
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "count": 2,
+                        "from": [
+                            "Arcana",
+                            "Insight",
+                            "Medicine",
+                            "Nature",
+                            "Persuasion",
+                            "Religion"
+                        ]
+                    }
+                }
+            ],
+            "source": "SummonerHB",
+            "spellcastingAbility": "cha",
+            "startingProficiencies": {
+                "armor": [
+                    "Light armor"
+                ],
+                "savingThrows": [
+                    "Constitution",
+                    "Charisma"
+                ],
+                "tools": [
+                ],
+                "weapons": [
+                    "Simple weapons"
+                ]
+            }
+        }
+    ],
+    "classFeature": [
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "At 1st level, you form a magical bond with an extraplanar entity known as an Eidolon. It manifests in an unoccupied space within 30 feet after a 10-minute ritual and acts immediately after your turn.",
+                "If reduced to 0 hit points, it vanishes and can be resummoned after a long rest or by expending a spell slot of 1st level or higher as an action. When resummoned using a spell slot, it returns with half its maximum hit points.",
+                {
+                    "entries": [
+                        "<b>Size:</b> Small or Medium (your choice).",
+                        "<b>Type:</b> Celestial, fey, fiend or undead (your choice).",
+                        "<b>HP:</b> 5 × your Summoner level + 5 × your proficiency bonus.",
+                        "<b>AC:</b> 13 + Dexterity modifier + your proficiency bonus.",
+                        "<b>Ability Scores:</b> STR 14, DEX 12, CON 14, INT 6, WIS 10, CHA 10.",
+                        "<b>Saving Throws:</b> Strength and Constitution.",
+                        "<b>Skills:</b> Choose two from Acrobatics, Athletics, Insight, Intimidation, Perception, and Stealth.",
+                        "<b>Languages:</b> The Eidolon understands and speaks the same languages as the Summoner.",
+                        "<b>Proficiency Bonus:</b> Uses your proficiency bonus.",
+                        "<b>Spell Save DC:</b> Equal to your Summoner Spell Save DC (8 + PB + your Charisma modifier).",
+                        "<b>Attack Bonus:</b> PB + Strength modifier.",
+                        "<b>Speed:</b> 30 ft. (modified by evolutions)."
+                    ],
+                    "name": "Statistics",
+                    "type": "entries"
+                }
+            ],
+            "level": 1,
+            "name": "Eidolon",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You and your Eidolon share a mystical link. While within 100 feet of each other, you can communicate telepathically.",
+                "If either of you is forced to make a saving throw against being charmed or frightened, the other may use its reaction to grant advantage on that saving throw."
+            ],
+            "level": 1,
+            "name": "Link",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "Starting at 1st level, your Eidolon can manifest unique evolutions that customize its form and abilities.",
+                "Your Eidolon has a number of evolution points equal to half your summoner level (rounded up) plus half your Charisma modifier (rounded up).",
+                "You can’t take the same evolution more than once unless its description says otherwise.",
+                "You decide how to spend your Eidolon’s evolution points whenever you gain a level in this class, or when you perform a 1-hour ritual to reshape its essence."
+            ],
+            "level": 1,
+            "name": "Evolution Pool",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "The following evolutions are available to your Eidolon. Each costs the listed number of evolution points. A prerequisite lists the minimum Summoner level or another evolution needed. If an evolution calls for a saving throw, use your Summoner Spell Save DC.",
+                {
+                    "entries": [
+                        {
+                            "entries": [
+                                "Your Eidolon’s AC increases by 1. You can take this evolution multiple times, up to a maximum of +2. At 11th level, you can increase the maximum to +3."
+                            ],
+                            "name": "Reinforced Hide",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "When your Eidolon hits a creature with a melee natural weapon attack, it can attempt to grapple the target as a bonus action."
+                            ],
+                            "name": "Grappling Limbs",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Your Eidolon has advantage on Dexterity (Stealth) checks and can Hide while lightly obscured."
+                            ],
+                            "name": "Shadow Meld",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Choose acid, cold, fire, or lightning. Once on each of its turns, when your Eidolon hits with a melee attack, it can deal extra damage equal to your proficiency bonus of the chosen type."
+                            ],
+                            "name": "Elemental Affinity",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Prerequisite: Eidolon must be Medium. Your Eidolon’s size increases to Large."
+                            ],
+                            "name": "Enlarged Form",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Your Eidolon’s reach with melee attacks increases by 5 feet. You can take this evolution multiple times; its effects stack."
+                            ],
+                            "name": "Extended Limbs",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Your Eidolon’s walking speed increases by 10 feet. You can take this evolution multiple times; its effects stack."
+                            ],
+                            "name": "Fleet Form",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Your Eidolon gains proficiency in one skill of your choice that it doesn’t already have. You can take this multiple times, choosing a different skill each time."
+                            ],
+                            "name": "Adaptive Aptitude",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Choose one skill your Eidolon is proficient in. It doubles its proficiency bonus for ability checks using that skill. You can take this multiple times, each time choosing a different eligible skill."
+                            ],
+                            "name": "Refined Instincts",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Your Eidolon’s maximum hit points increase by an amount equal to your Summoner level. You can take this evolution multiple times; its effects stack."
+                            ],
+                            "name": "Vital Core",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Your Eidolon itself becomes an extension of your arcane will. While it is within 30 feet of you, you can use your Eidolon as your spellcasting focus for Summoner spells. You must still provide material components that have a cost."
+                            ],
+                            "name": "Eidolic Focus",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Prerequisite: 4th level or higher; you can take this evolution additional times at 8th, 12th, 16th, and 19th level.",
+                                "Your Eidolon refines its physical and mental form. Choose one of its ability scores to increase by 2, to a maximum of 18.",
+                                "You can take this evolution multiple times, but no more than once at each level listed in the prerequisite."
+                            ],
+                            "name": "Enhanced Form",
+                            "type": "entries"
+                        }
+                    ],
+                    "name": "Tier 1 (1 Point)",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        {
+                            "entries": [
+                                "As a bonus action, your Eidolon forces creatures of your choice within 10 feet to make a Wisdom saving throw. On a failure, a creature has disadvantage on attack rolls against creatures other than your Eidolon until the end of your next turn.",
+                                "Your Eidolon can use this a number of times equal to your proficiency bonus, and it regains all expended uses when you finish a short or long rest."
+                            ],
+                            "name": "Taunting Roar",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "As a bonus action, your Eidolon teleports up to 15 feet to a space it can see. It can use this a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+                            ],
+                            "name": "Phase Step",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "When you take damage, your Eidolon can use its reaction to take half of the damage instead of you."
+                            ],
+                            "name": "Life Transfer",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "If your Eidolon starts its turn while grappling a creature, it can use its reaction to crush the target, which takes 1d8 + your Eidolon’s Strength modifier bludgeoning damage."
+                            ],
+                            "name": "Constrictor Coils",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Prerequisite: Elemental Affinity.",
+                                "As an action, your Eidolon emits a pulse of elemental energy. Each creature within 10 feet must make a Dexterity saving throw, taking damage equal to your proficiency bonus on a failed save, or half as much on a success. The damage type is the one chosen for Elemental Affinity."
+                            ],
+                            "name": "Elemental Pulse",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "A creature other than you that starts its turn within 5 feet of your Eidolon takes fire damage equal to your proficiency bonus."
+                            ],
+                            "name": "Aura of Embers",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "As an action, your Eidolon touches a creature within 5 feet to restore hit points equal to 1d6 + your proficiency bonus.",
+                                "It can use this a number of times equal to your Charisma modifier (minimum 1), regaining all expended uses when you finish a long rest.",
+                                "You can take this evolution more than once; each time you do, your Eidolon gains one additional use per long rest."
+                            ],
+                            "name": "Healing Touch",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "At the start of its turn, if your Eidolon has at least 1 hit point and has not taken fire or acid damage since the end of its last turn, it can choose to regain hit points equal to your Charisma modifier (minimum 1).",
+                                "Your Eidolon can use this a number of times equal to your proficiency bonus, and it regains all expended uses when you finish a long rest."
+                            ],
+                            "name": "Regenerative Essence",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Prerequisite: Eidolic Restoration.",
+                                "When you use Eidolic Restoration, the base healing is 4 × your Summoner level instead of 3 × your level. If you expend a spell slot to enhance the healing, the additional healing equals 4 × the slot’s level instead of 3 ×."
+                            ],
+                            "name": "Efficient Resonance",
+                            "type": "entries"
+                        }
+                    ],
+                    "name": "Tier 2 (2 Points, 5th level+)",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        {
+                            "entries": [
+                                "As an action, your Eidolon merges into your shadow for up to 1 minute, becoming invisible and intangible and moving with you.",
+                                "As part of ending this effect, your Eidolon can reappear in an unoccupied space within 30 feet of your shadow and make one melee attack.",
+                                "You can use this evolution a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ],
+                            "name": "Shadow Assimilation",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "As a bonus action, you can link with your Eidolon for 1 minute. While linked, when you take damage, half of that damage (rounded down) is transferred to your Eidolon.",
+                                "Once you use this evolution, you can’t use it again until you finish a long rest."
+                            ],
+                            "name": "Guardian’s Aegis",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "Prerequisite: Elemental Affinity.",
+                                "Once per long rest, your Eidolon exhales energy in a 15-foot cone. Creatures in the area make a Dexterity saving throw, taking 6d8 damage of the type chosen for Elemental Affinity on a failed save, or half as much on a success."
+                            ],
+                            "name": "Elemental Cataclysm",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "When a creature you can see within 10 feet of your Eidolon would be reduced to 0 hit points, it instead drops to 1 hit point and then regains hit points equal to your proficiency bonus. Once per long rest."
+                            ],
+                            "name": "Seraphic Intervention",
+                            "type": "entries"
+                        },
+                        {
+                            "entries": [
+                                "When your Eidolon would be reduced to 0 hit points, it instead drops to 1 hit point. Once this prevents it from being dismissed, you can’t use this evolution again until you finish a long rest."
+                            ],
+                            "name": "Guardian’s Resilience",
+                            "type": "entries"
+                        }
+                    ],
+                    "name": "Tier 3 (3 Points, 11th level+)",
+                    "type": "entries"
+                }
+            ],
+            "level": 1,
+            "name": "Evolution Options",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You have learned to channel magical power through your bond with your Eidolon. You use Charisma as your spellcasting ability (Spell Save DC = 8 + PB + CHA mod, Spell Attack = PB + CHA mod).",
+                {
+                    "entries": [
+                        "The Summoner table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Summoner spells, you must expend a spell slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
+                    ],
+                    "name": "Spell Slots",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        "You prepare the list of Summoner spells that are available for you to cast. To do so, choose a number of Summoner spells equal to your Charisma modifier + half your Summoner level (minimum of one spell).",
+                        "You can change your list of prepared spells when you finish a long rest."
+                    ],
+                    "name": "Preparing and Casting Spells",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        "You can cast a Summoner spell as a ritual if that spell has the ritual tag and you have it prepared."
+                    ],
+                    "name": "Ritual Casting",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        "You can use an arcane focus as a spellcasting focus for your Summoner spells."
+                    ],
+                    "name": "Spellcasting Focus",
+                    "type": "entries"
+                }
+            ],
+            "level": 2,
+            "name": "Spellcasting",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "As an action, your Eidolon regains hit points equal to 3 × your Summoner level. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses after a long rest. You may expend a spell slot to increase the healing by 3 × the slot’s level."
+            ],
+            "level": 2,
+            "name": "Eidolic Restoration",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "When you cast a spell with a range of Self, you may have its effects originate from your Eidolon instead of yourself. If the spell enhances melee attacks (such as Wrathful Smite, Booming Blade, or Green-Flame Blade), it applies to your Eidolon’s next melee attack before the start of your next turn. You maintain concentration; your Eidolon cannot concentrate on spells."
+            ],
+            "level": 3,
+            "name": "Eidolic Conduit",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+            ],
+            "level": 4,
+            "name": "Ability Score Improvement",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "When you use Eidolic Restoration, you gain temporary hit points equal to your Charisma modifier until the start of your next turn. When you receive magical healing from a spell of 1st level or higher, your Eidolon regains hit points equal to your Charisma modifier."
+            ],
+            "level": 7,
+            "name": "Shared Vitality",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "As a bonus action, you can teleport your Eidolon to an unoccupied space within 30 feet. You can do this a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+            ],
+            "level": 6,
+            "name": "Maker's Call",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "Starting at 6th level, your Eidolon’s natural weapon attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+            ],
+            "level": 6,
+            "name": "Eidolic Strikes",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "Choose one of your Eidolon's evolutions of 2 points or less; you gain its benefits while the Eidolon is manifested."
+            ],
+            "level": 10,
+            "name": "Aspect",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+            ],
+            "level": 8,
+            "name": "Ability Score Improvement",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+            ],
+            "level": 12,
+            "name": "Ability Score Improvement",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "When your Eidolon takes damage, you can use your reaction to reduce that damage by twice your Charisma modifier, taking that amount yourself instead. If this reduces you to 0 hit points, your Eidolon vanishes."
+            ],
+            "level": 14,
+            "name": "Life Bond",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+            ],
+            "level": 16,
+            "name": "Ability Score Improvement",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You can share one of your Eidolon's 3-point evolutions, gaining its benefits while the Eidolon is manifested."
+            ],
+            "level": 18,
+            "name": "Greater Aspect",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "You can increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature."
+            ],
+            "level": 19,
+            "name": "Ability Score Improvement",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
+                "Once per long rest, as an action, you and your Eidolon merge for 1 minute. You occupy its space and use its physical statistics while retaining your mental ability scores. You can cast spells through it and have resistance to all damage while merged. When the effect ends, the Eidolon vanishes and you gain one level of exhaustion."
+            ],
+            "level": 20,
+            "name": "Perfect Symbiosis",
+            "source": "SummonerHB"
+        }
+    ]
+}
