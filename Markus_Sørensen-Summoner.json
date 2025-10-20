@@ -35,9 +35,9 @@
                 "Evolution Options|Summoner|SummonerHB|1",
                 "Spellcasting|Summoner|SummonerHB|2",
                 "Eidolic Restoration|Summoner|SummonerHB|2",
-                "Eidolic Conduit|Summoner|SummonerHB|3",
+                "Maker's Call|Summoner|SummonerHB|3",
                 "Ability Score Improvement|Summoner|SummonerHB|4",
-                "Maker's Call|Summoner|SummonerHB|6",
+                "Eidolic Conduit|Summoner|SummonerHB|5",
                 "Eidolic Strikes|Summoner|SummonerHB|6",
                 "Shared Vitality|Summoner|SummonerHB|7",
                 "Ability Score Improvement|Summoner|SummonerHB|8",
@@ -101,6 +101,7 @@
                 "Blinding Smite",
                 "Tongues",
                 "Water Breathing",
+                "Unseen Servant",
                 "Summon Fey|TCE",
                 "Summon Shadowspawn|TCE",
                 "Banishment",
@@ -322,7 +323,7 @@
             "classSource": "SummonerHB",
             "entries": [
                 "At 1st level, you form a magical bond with an extraplanar entity known as an Eidolon. It manifests in an unoccupied space within 30 feet after a 10-minute ritual and acts immediately after your turn.",
-                "If reduced to 0 hit points, it vanishes and can be resummoned after a long rest or by expending a spell slot of 1st level or higher as an action. When resummoned using a spell slot, it returns with half its maximum hit points.",
+                "If reduced to 0 hit points, it vanishes, after which it can be resummoned after a long rest, or at any time by expending a spell slot of 1st level or higher, using a 10-minute ritual. When resummoned, it returns with all of its hit points restored.",
                 {
                     "entries": [
                         "<b>Size:</b> Small or Medium (your choice).",
@@ -442,13 +443,6 @@
                         },
                         {
                             "entries": [
-                                "Your Eidolon’s maximum hit points increase by an amount equal to your Summoner level. You can take this evolution multiple times; its effects stack."
-                            ],
-                            "name": "Vital Core",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
                                 "Your Eidolon itself becomes an extension of your arcane will. While it is within 30 feet of you, you can use your Eidolon as your spellcasting focus for Summoner spells. You must still provide material components that have a cost."
                             ],
                             "name": "Eidolic Focus",
@@ -458,7 +452,8 @@
                             "entries": [
                                 "Prerequisite: 4th level or higher; you can take this evolution additional times at 8th, 12th, 16th, and 19th level.",
                                 "Your Eidolon refines its physical and mental form. Choose one of its ability scores to increase by 2, to a maximum of 18.",
-                                "You can take this evolution multiple times, but no more than once at each level listed in the prerequisite."
+                                "You can take this evolution multiple times, but no more than once at each level listed in the prerequisite.",
+                                "Every time you use this evolution to increase Constitution, your Eidolon’s maximum hit points increase by an amount equal to your Summoner level"
                             ],
                             "name": "Enhanced Form",
                             "type": "entries"
@@ -645,10 +640,11 @@
             "className": "Summoner",
             "classSource": "SummonerHB",
             "entries": [
-                "When you cast a spell with a range of Self, you may have its effects originate from your Eidolon instead of yourself. If the spell enhances melee attacks (such as Wrathful Smite, Booming Blade, or Green-Flame Blade), it applies to your Eidolon’s next melee attack before the start of your next turn. You maintain concentration; your Eidolon cannot concentrate on spells."
+                "As a bonus action, you can teleport your Eidolon to an unoccupied space within 30 feet. You can do this a number of times equal to your proficiency bonus, regaining all uses after a long rest.",
+                "Additionally, any creatures summoned using a Summoner spell is the same creature type as your Eidolon, regardless of what the original type was."
             ],
             "level": 3,
-            "name": "Eidolic Conduit",
+            "name": "Maker's Call",
             "source": "SummonerHB"
         },
         {
@@ -665,20 +661,22 @@
             "className": "Summoner",
             "classSource": "SummonerHB",
             "entries": [
-                "When you use Eidolic Restoration, you gain temporary hit points equal to your Charisma modifier until the start of your next turn. When you receive magical healing from a spell of 1st level or higher, your Eidolon regains hit points equal to your Charisma modifier."
+                "When you cast a spell with a range of Self, you may have its effects originate from your Eidolon instead of yourself. If the spell enhances melee attacks (such as Wrathful Smite, Booming Blade, or Green-Flame Blade), it applies to your Eidolon’s next melee attack before the start of your next turn.",
+                "If the spell cast this way would usually result in a weapon attack, such as with Booming Blade, the Eidolon can immediately make the attack at the cost of its reaction.",
+                "You still maintain concentration on spells cast this way, which require concentration."
             ],
-            "level": 7,
-            "name": "Shared Vitality",
+            "level": 5,
+            "name": "Eidolic Conduit",
             "source": "SummonerHB"
         },
         {
             "className": "Summoner",
             "classSource": "SummonerHB",
             "entries": [
-                "As a bonus action, you can teleport your Eidolon to an unoccupied space within 30 feet. You can do this a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+                "When you use Eidolic Restoration, you gain temporary hit points equal to your Charisma modifier until the start of your next turn. When you receive magical healing from a spell of 1st level or higher, your Eidolon regains hit points equal to your Charisma modifier."
             ],
-            "level": 6,
-            "name": "Maker's Call",
+            "level": 7,
+            "name": "Shared Vitality",
             "source": "SummonerHB"
         },
         {
