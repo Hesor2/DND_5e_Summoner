@@ -27,13 +27,35 @@
     "class": [
         {
             "canCastSpells": true,
+            "cantripProgression": [
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+            ],
             "casterProgression": "1/2",
             "classFeatures": [
+                "Spellcasting|Summoner|SummonerHB|1",
                 "Eidolon|Summoner|SummonerHB|1",
                 "Link|Summoner|SummonerHB|1",
                 "Evolution Pool|Summoner|SummonerHB|1",
                 "Evolution Options|Summoner|SummonerHB|1",
-                "Spellcasting|Summoner|SummonerHB|2",
                 "Eidolic Restoration|Summoner|SummonerHB|2",
                 "Maker's Call|Summoner|SummonerHB|3",
                 "Ability Score Improvement|Summoner|SummonerHB|4",
@@ -322,6 +344,45 @@
             "className": "Summoner",
             "classSource": "SummonerHB",
             "entries": [
+                "You have learned to channel magical power through your bond with your Eidolon. You use Charisma as your spellcasting ability (Spell Save DC = 8 + PB + CHA mod, Spell Attack = PB + CHA mod).",
+                {
+                    "entries": [
+                        "The Summoner table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Summoner spells, you must expend a spell slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
+                    ],
+                    "name": "Spell Slots",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        "You prepare the list of Summoner spells that are available for you to cast. To do so, choose a number of Summoner spells equal to your Charisma modifier + half your Summoner level (minimum of one spell).",
+                        "You can change your list of prepared spells when you finish a long rest."
+                    ],
+                    "name": "Preparing and Casting Spells",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        "You can cast a Summoner spell as a ritual if that spell has the ritual tag and you have it prepared."
+                    ],
+                    "name": "Ritual Casting",
+                    "type": "entries"
+                },
+                {
+                    "entries": [
+                        "You can use an arcane focus as a spellcasting focus for your Summoner spells."
+                    ],
+                    "name": "Spellcasting Focus",
+                    "type": "entries"
+                }
+            ],
+            "level": 1,
+            "name": "Spellcasting",
+            "source": "SummonerHB"
+        },
+        {
+            "className": "Summoner",
+            "classSource": "SummonerHB",
+            "entries": [
                 "At 1st level, you form a magical bond with an extraplanar entity known as an Eidolon. It manifests in an unoccupied space within 30 feet after a 10-minute ritual and acts immediately after your turn.",
                 "If reduced to 0 hit points, it vanishes, after which it can be resummoned after a long rest, or at any time by expending a spell slot of 1st level or higher, using a 10-minute ritual. When resummoned, it returns with all of its hit points restored.",
                 {
@@ -585,45 +646,6 @@
             ],
             "level": 1,
             "name": "Evolution Options",
-            "source": "SummonerHB"
-        },
-        {
-            "className": "Summoner",
-            "classSource": "SummonerHB",
-            "entries": [
-                "You have learned to channel magical power through your bond with your Eidolon. You use Charisma as your spellcasting ability (Spell Save DC = 8 + PB + CHA mod, Spell Attack = PB + CHA mod).",
-                {
-                    "entries": [
-                        "The Summoner table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Summoner spells, you must expend a spell slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
-                    ],
-                    "name": "Spell Slots",
-                    "type": "entries"
-                },
-                {
-                    "entries": [
-                        "You prepare the list of Summoner spells that are available for you to cast. To do so, choose a number of Summoner spells equal to your Charisma modifier + half your Summoner level (minimum of one spell).",
-                        "You can change your list of prepared spells when you finish a long rest."
-                    ],
-                    "name": "Preparing and Casting Spells",
-                    "type": "entries"
-                },
-                {
-                    "entries": [
-                        "You can cast a Summoner spell as a ritual if that spell has the ritual tag and you have it prepared."
-                    ],
-                    "name": "Ritual Casting",
-                    "type": "entries"
-                },
-                {
-                    "entries": [
-                        "You can use an arcane focus as a spellcasting focus for your Summoner spells."
-                    ],
-                    "name": "Spellcasting Focus",
-                    "type": "entries"
-                }
-            ],
-            "level": 2,
-            "name": "Spellcasting",
             "source": "SummonerHB"
         },
         {
