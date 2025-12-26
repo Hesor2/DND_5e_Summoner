@@ -467,24 +467,7 @@
             "entries": [
                 "At 1st level, you form a magical bond with an extraplanar entity known as an Eidolon. It manifests in an unoccupied space within 30 feet after a 10-minute ritual and acts immediately after your turn.",
                 "If reduced to 0 hit points, it vanishes, after which it can be resummoned after a long rest, or at any time by expending a spell slot of 1st level or higher, using a 10-minute ritual. When resummoned, it returns with all of its hit points restored.",
-                {
-                    "entries": [
-                        "<b>Size:</b> Small or Medium (your choice).",
-                        "<b>Type:</b> Celestial, fey, fiend or undead (your choice).",
-                        "<b>HP:</b> 5 × your Summoner level + 5 × your proficiency bonus.",
-                        "<b>AC:</b> 13 + Dexterity modifier + your proficiency bonus.",
-                        "<b>Ability Scores:</b> STR 14, DEX 12, CON 14, INT 6, WIS 10, CHA 10.",
-                        "<b>Saving Throws:</b> Strength and Constitution.",
-                        "<b>Skills:</b> Choose two from Acrobatics, Athletics, Insight, Intimidation, Perception, and Stealth.",
-                        "<b>Languages:</b> The Eidolon understands and speaks the same languages as the Summoner.",
-                        "<b>Proficiency Bonus:</b> Uses your proficiency bonus.",
-                        "<b>Attack Bonus:</b> PB + Strength modifier.",
-                        "<b>Unarmed Attack Damage:</b> 1d8 + Strength modifier.",
-                        "<b>Speed:</b> 30 ft."
-                    ],
-                    "name": "Statistics",
-                    "type": "entries"
-                }
+                "Use the {@creature Eidolon|SummonerHB} stat block for your eidolon."
             ],
             "level": 1,
             "name": "Eidolon",
@@ -872,6 +855,74 @@
             "level": 20,
             "name": "Perfect Symbiosis",
             "source": "SummonerHB"
+        }
+    ],
+    "monster": [
+        {
+            "ac": [
+                {
+                    "special": "13 + its Dexterity modifier + your proficiency bonus"
+                }
+            ],
+            "action": [
+                {
+                    "entries": [
+                        "{@atk mw} your proficiency bonus + the eidolon’s Strength modifier to hit, reach 5 ft., one target. {@h}1d8 + its Strength modifier bludgeoning, slashing or piercing damage based on what type is appropriate for the Eidolon's form."
+                    ],
+                    "name": "Natural Weapon"
+                }
+            ],
+            "alignment": [
+                "U"
+            ],
+            "cha": 10,
+            "con": 14,
+            "cr": "—",
+            "dex": 12,
+            "hp": {
+                "special": "5 × your Summoner level + 5 × your proficiency bonus"
+            },
+            "int": 10,
+            "languages": [
+                "understands and speaks the same languages as you"
+            ],
+            "name": "Eidolon",
+            "save": {
+                "special": "Strength and Constitution (proficiency bonus equals yours)"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "skill": {
+                "special": "The Summoner chooses two from Acrobatics, Athletics, Insight, Intimidation, Perception, and Stealth, when the Summoner gains the Eidolon feature. The choice can be remade, whenever the Summoner gains a level"
+            },
+            "source": "SummonerHB",
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "trait": [
+                {
+                    "entries": [
+                        "When you summon the eidolon, choose its creature type: celestial, fey, fiend, or undead."
+                    ],
+                    "name": "Eidolon Nature"
+                },
+                {
+                    "entries": [
+                        "The eidolon’s proficiency bonus equals yours."
+                    ],
+                    "name": "Shared Proficiency"
+                }
+            ],
+            "type": {
+                "type": "unknown"
+            },
+            "wis": 10
         }
     ]
 }
