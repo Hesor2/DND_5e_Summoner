@@ -55,7 +55,6 @@
                 "Eidolon|Summoner|SummonerHB|1",
                 "Link|Summoner|SummonerHB|1",
                 "Evolution Pool|Summoner|SummonerHB|1",
-                "Evolution Options|Summoner|SummonerHB|1",
                 "Eidolic Restoration|Summoner|SummonerHB|2",
                 "Maker's Call|Summoner|SummonerHB|3",
                 "Ability Score Improvement|Summoner|SummonerHB|4",
@@ -491,7 +490,9 @@
                 "Starting at 1st level, your Eidolon can manifest unique evolutions that customize its form and abilities.",
                 "Your Eidolon has a number of evolution points equal to half your summoner level (rounded up) plus half your Charisma modifier (rounded up).",
                 "You can’t take the same evolution more than once unless its description says otherwise.",
-                "You decide how to spend your Eidolon’s evolution points whenever you gain a level in this class, or when you perform a 1-hour ritual to reshape its essence."
+                "If an evolution calls for a saving throw, use your Summoner Spell Save DC.",
+                "You decide how to spend your Eidolon’s evolution points whenever you gain a level in this class, or when you perform a 1-hour ritual to reshape its essence.",
+                "A list of the available options can be found on the {@filter Optional Features|optionalfeatures|Feature Type=EV} page."
             ],
             "level": 1,
             "name": "Evolution Pool",
@@ -501,223 +502,7 @@
             "className": "Summoner",
             "classSource": "SummonerHB",
             "entries": [
-                "The following evolutions are available to your Eidolon. Each costs the listed number of evolution points. A prerequisite lists the minimum Summoner level or another evolution needed. If an evolution calls for a saving throw, use your Summoner Spell Save DC.",
-                {
-                    "entries": [
-                        {
-                            "entries": [
-                                "Your Eidolon’s AC increases by 1. You can take this evolution multiple times, up to a maximum of +2. At 11th level, you can increase the maximum to +3."
-                            ],
-                            "name": "Reinforced Hide",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "When your Eidolon hits a creature with a melee natural weapon attack, it can attempt to grapple the target as a bonus action."
-                            ],
-                            "name": "Grappling Limbs",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Your Eidolon has advantage on Dexterity (Stealth) checks and can Hide while lightly obscured."
-                            ],
-                            "name": "Shadow Meld",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Choose acid, cold, fire, or lightning. Once on each of its turns, when your Eidolon hits with a melee attack, it can deal extra damage equal to your proficiency bonus of the chosen type."
-                            ],
-                            "name": "Elemental Affinity",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Prerequisite: Eidolon must be Medium. Your Eidolon’s size increases to Large."
-                            ],
-                            "name": "Enlarged Form",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Your Eidolon’s reach with melee attacks increases by 5 feet. You can take this evolution multiple times; its effects stack."
-                            ],
-                            "name": "Extended Limbs",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Your Eidolon’s walking speed increases by 10 feet. You can take this evolution multiple times; its effects stack."
-                            ],
-                            "name": "Fleet Form",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Your Eidolon gains proficiency in one skill of your choice that it doesn’t already have. You can take this multiple times, choosing a different skill each time."
-                            ],
-                            "name": "Adaptive Aptitude",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Choose one skill your Eidolon is proficient in. It doubles its proficiency bonus for ability checks using that skill. You can take this multiple times, each time choosing a different eligible skill."
-                            ],
-                            "name": "Refined Instincts",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Your Eidolon itself becomes an extension of your arcane will. While it is within 30 feet of you, you can use your Eidolon as your spellcasting focus for Summoner spells. You must still provide material components that have a cost."
-                            ],
-                            "name": "Eidolic Focus",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Prerequisite: 4th level or higher; you can take this evolution additional times at 8th, 12th, 16th, and 19th level.",
-                                "Your Eidolon refines its physical and mental form. Choose one of its ability scores to increase by 2, to a maximum of 18.",
-                                "You can take this evolution multiple times, but no more than once at each level listed in the prerequisite.",
-                                "Every time you use this evolution to increase Constitution, your Eidolon’s maximum hit points increase by an amount equal to your Summoner level"
-                            ],
-                            "name": "Enhanced Form",
-                            "type": "entries"
-                        }
-                    ],
-                    "name": "Tier 1 (1 Point)",
-                    "type": "entries"
-                },
-                {
-                    "entries": [
-                        {
-                            "entries": [
-                                "As a bonus action, your Eidolon forces creatures of your choice within 10 feet to make a Wisdom saving throw. On a failure, a creature has disadvantage on attack rolls against creatures other than your Eidolon until the end of your next turn.",
-                                "Your Eidolon can use this a number of times equal to your proficiency bonus, and it regains all expended uses when you finish a short or long rest."
-                            ],
-                            "name": "Taunting Roar",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "As a bonus action, your Eidolon teleports up to 15 feet to a space it can see. It can use this a number of times equal to your proficiency bonus, regaining all uses after a long rest."
-                            ],
-                            "name": "Phase Step",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "When you take damage, your Eidolon can use its reaction to take half of the damage instead of you."
-                            ],
-                            "name": "Life Transfer",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "If your Eidolon starts its turn while grappling a creature, it can use its reaction to crush the target, which takes 1d8 + your Eidolon’s Strength modifier bludgeoning damage."
-                            ],
-                            "name": "Constrictor Coils",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Prerequisite: Elemental Affinity.",
-                                "As an action, your Eidolon emits a pulse of elemental energy. Each creature within 10 feet must make a Dexterity saving throw, taking damage equal to your proficiency bonus on a failed save, or half as much on a success. The damage type is the one chosen for Elemental Affinity."
-                            ],
-                            "name": "Elemental Pulse",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "A creature other than you that starts its turn within 5 feet of your Eidolon takes fire damage equal to your proficiency bonus."
-                            ],
-                            "name": "Aura of Embers",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "As an action, your Eidolon touches a creature within 5 feet to restore hit points equal to 1d6 + your proficiency bonus.",
-                                "It can use this a number of times equal to your Charisma modifier (minimum 1), regaining all expended uses when you finish a long rest.",
-                                "You can take this evolution more than once; each time you do, your Eidolon gains one additional use per long rest."
-                            ],
-                            "name": "Healing Touch",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "At the start of its turn, if your Eidolon has at least 1 hit point and has not taken fire or acid damage since the end of its last turn, it can choose to regain hit points equal to your Charisma modifier (minimum 1).",
-                                "Your Eidolon can use this a number of times equal to your proficiency bonus, and it regains all expended uses when you finish a long rest."
-                            ],
-                            "name": "Regenerative Essence",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Prerequisite: Eidolic Restoration.",
-                                "When you use Eidolic Restoration, the base healing is 4 × your Summoner level instead of 3 × your level. If you expend a spell slot to enhance the healing, the additional healing equals 4 × the slot’s level instead of 3 ×."
-                            ],
-                            "name": "Efficient Resonance",
-                            "type": "entries"
-                        }
-                    ],
-                    "name": "Tier 2 (2 Points, 5th level+)",
-                    "type": "entries"
-                },
-                {
-                    "entries": [
-                        {
-                            "entries": [
-                                "As an action, your Eidolon merges into your shadow for up to 1 minute, becoming invisible and intangible and moving with you.",
-                                "As part of ending this effect, your Eidolon can reappear in an unoccupied space within 30 feet of your shadow and make one melee attack.",
-                                "You can use this evolution a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                            ],
-                            "name": "Shadow Assimilation",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "As a bonus action, you can link with your Eidolon for 1 minute. While linked, when you take damage, half of that damage (rounded down) is transferred to your Eidolon.",
-                                "Once you use this evolution, you can’t use it again until you finish a long rest."
-                            ],
-                            "name": "Guardian’s Aegis",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "Prerequisite: Elemental Affinity.",
-                                "Once per long rest, your Eidolon exhales energy in a 15-foot cone. Creatures in the area make a Dexterity saving throw, taking 6d8 damage of the type chosen for Elemental Affinity on a failed save, or half as much on a success."
-                            ],
-                            "name": "Elemental Cataclysm",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "When a creature you can see within 10 feet of your Eidolon would be reduced to 0 hit points, it instead drops to 1 hit point and then regains hit points equal to your proficiency bonus. Once per long rest."
-                            ],
-                            "name": "Seraphic Intervention",
-                            "type": "entries"
-                        },
-                        {
-                            "entries": [
-                                "When your Eidolon would be reduced to 0 hit points, it instead drops to 1 hit point. Once this prevents it from being dismissed, you can’t use this evolution again until you finish a long rest."
-                            ],
-                            "name": "Guardian’s Resilience",
-                            "type": "entries"
-                        }
-                    ],
-                    "name": "Tier 3 (3 Points, 11th level+)",
-                    "type": "entries"
-                }
-            ],
-            "level": 1,
-            "name": "Evolution Options",
-            "source": "SummonerHB"
-        },
-        {
-            "className": "Summoner",
-            "classSource": "SummonerHB",
-            "entries": [
-                "As an action, your Eidolon regains hit points equal to 3 × your Summoner level. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses after a long rest. You may expend a spell slot to increase the healing by 3 × the slot’s level."
+                "As an action, you can heal your Eidolon for hit points equal to 3 × your Summoner level. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses after a long rest. You may expend a spell slot to increase the healing by 3 × the slot’s level."
             ],
             "level": 2,
             "name": "Eidolic Restoration",
@@ -923,6 +708,580 @@
                 "type": "unknown"
             },
             "wis": 10
+        }
+    ],
+    "optionalfeature": [
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Your Eidolon’s AC increases by 1. You can take this evolution multiple times, up to a maximum of +2. At 11th level the maximum is +3."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Reinforced Hide",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "When your Eidolon hits a creature with its Natural Weapon attack, it can attempt to grapple the target as a bonus action."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Grappling Limbs",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Your Eidolon has advantage on Dexterity (Stealth) checks and can Hide while lightly obscured."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Shadow Meld",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Choose acid, cold, fire, or lightning. Once on each of its turns, when your Eidolon hits with a melee attack, it can deal extra damage equal to your proficiency bonus of the chosen type."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Elemental Affinity",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Prerequisite: Eidolon must be Medium.",
+                "Your Eidolon’s size increases to Large."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Enlarged Form",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Your Eidolon’s reach with melee attacks increases by 5 feet. You can take this evolution multiple times; its effects stack."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Extended Limbs",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Your Eidolon’s walking speed increases by 10 feet. You can take this evolution multiple times; its effects stack."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Fleet Form",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Your Eidolon gains proficiency in one skill of your choice that it doesn’t already have. You can take this multiple times, choosing a different skill each time."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Adaptive Aptitude",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Choose one skill your Eidolon is proficient in. It doubles its proficiency bonus for ability checks using that skill. You can take this multiple times, each time choosing a different eligible skill."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Refined Instincts",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Your Eidolon itself becomes an extension of your arcane will. While it is within 30 feet of you, you can use your Eidolon as your spellcasting focus for Summoner spells. You must still provide material components that have a cost."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Eidolic Focus",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 1
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 1 evolution point.",
+                "Prerequisite: 4th level or higher; you can take this evolution additional times at 8th, 12th, 16th, and 19th level.",
+                "Your Eidolon refines its physical and mental form. Choose one of its ability scores to increase by 2, to a maximum of 18.",
+                "You can take this evolution multiple times, but no more than once at each level listed in the prerequisite.",
+                "Every time you use this evolution to increase Constitution, your Eidolon’s maximum hit points increase by an amount equal to your Summoner level."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Enhanced Form",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 4
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "As a bonus action, your Eidolon forces creatures of your choice within 10 feet to make a Wisdom saving throw. On a failure, a creature has disadvantage on attack rolls against creatures other than your Eidolon until the end of your next turn.",
+                "Your Eidolon can use this a number of times equal to your proficiency bonus, and it regains all expended uses when you finish a short or long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Taunting Roar",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "As a bonus action, your Eidolon teleports up to 15 feet to a space it can see. It can use this a number of times equal to your proficiency bonus, regaining all uses after a long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Phase Step",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "When you take damage, your Eidolon can use its reaction to take half of the damage instead of you."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Life Transfer",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "If your Eidolon starts its turn while grappling a creature, it can use its reaction to crush the target, which takes 1d4 + your Eidolon’s Strength modifier bludgeoning damage."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Crushing Grip",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "Prerequisite: Elemental Affinity.",
+                "As an action, your Eidolon emits a pulse of elemental energy. Each creature within 10 feet must make a Dexterity saving throw, taking damage equal to twice your proficiency bonus on a failed save, or half as much on a success. The damage type is the one chosen for Elemental Affinity."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Elemental Pulse",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "Prerequisite: Elemental Affinity.",
+                "As a bonus action, your Eidolon surrounds itself with a magical aura of elemental energy. The aura extends 5 feet from your Eidolon in every direction, but not through total cover. It lasts until the Eidolon is incapacitated or dismisses it as a bonus action. Any creature other than you that starts its turn within 5 feet of your Eidolon takes damage equal to your proficiency bonus. The damage type is the one chosen for Elemental Affinity."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Elemental Aura",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "As an action, your Eidolon touches a creature within 5 feet to restore hit points equal to 1d6 + your proficiency bonus.",
+                "It can use this a number of times equal to your Charisma modifier (minimum 1), regaining all expended uses when you finish a long rest.",
+                "You can take this evolution more than once; each time you do, your Eidolon gains one additional use per long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Healing Touch",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "At the start of its turn, if your Eidolon has at least 1 hit point and has not taken fire or acid damage since the end of its last turn, it can choose to regain hit points equal to your Charisma modifier (minimum 1).",
+                "Your Eidolon can use this a number of times equal to your proficiency bonus, and it regains all expended uses when you finish a long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Regenerative Essence",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 2 evolution points.",
+                "When you use Eidolic Restoration, the base healing is 4 × your Summoner level instead of 3 × your level. If you expend a spell slot to enhance the healing, the additional healing equals 4 × the slot’s level instead of 3."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Efficient Resonance",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 5
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 3 evolution points.",
+                "Prerequisite: Shadow Meld.",
+                "As an action, your Eidolon merges into your shadow, becoming invisible and intangible and moving with you.",
+                "Your Eidolon can end this effect as an action, or as part of rolling initiative, appearing within 5 feet of you.",
+                "When reappearing, your Eidolon make make a Dexterity (Stealth) check to hide without using an action, counting as lightly obscured until the end of your next turn."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Shadow Assimilation",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 11
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 3 evolution points.",
+                "As a bonus action, you can link with your Eidolon for 1 minute. While linked, when you take damage, half of that damage (rounded down) is transferred to your Eidolon.",
+                "Once you use this evolution, you can’t use it again until you finish a long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Guardian’s Aegis",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 11
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 3 evolution points.",
+                "Prerequisite: Elemental Affinity.",
+                "Once per long rest, your Eidolon exhales energy in a 15-foot cone. Creatures in the area make a Dexterity saving throw, taking 6d8 damage of the type chosen for Elemental Affinity on a failed save, or half as much on a success."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Elemental Cataclysm",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 11
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 3 evolution points.",
+                "When a creature you can see within 10 feet of your Eidolon would be reduced to 0 hit points, your Eidolon can use its reaction cause it to instead drop to 1 hit point. This ability can be used once per long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Seraphic Intervention",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 11
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        },
+        {
+            "entries": [
+                "Cost: 3 evolution points.",
+                "When your Eidolon would be reduced to 0 hit points, it instead drops to 1 hit point. Once this prevents it from being dismissed, you can’t use this evolution again until you finish a long rest."
+            ],
+            "featureType": [
+                "EV"
+            ],
+            "name": "Guardian’s Resilience",
+            "prerequisite": [
+                {
+                    "level": {
+                        "class": {
+                            "name": "Summoner",
+                            "source": "SummonerHB"
+                        },
+                        "level": 11
+                    }
+                }
+            ],
+            "source": "SummonerHB"
+        }
+    ],
+    "optionalfeatureType": [
+        {
+            "abbreviation": "EV",
+            "name": "Evolutions",
+            "source": "SummonerHB"
         }
     ]
 }
