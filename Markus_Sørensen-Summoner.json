@@ -373,23 +373,23 @@
                 "number": 1
             },
             "name": "Summoner",
-            "skillProficiencies": [
-                {
-                    "choose": {
-                        "count": 2,
-                        "from": [
-                            "Arcana",
-                            "Insight",
-                            "Medicine",
-                            "Nature",
-                            "Persuasion",
-                            "Religion"
-                        ]
-                    }
-                }
+            "proficiency": [
+                "con",
+                "cha"
             ],
             "source": "SummonerHB",
             "spellcastingAbility": "cha",
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a light crossbow and 20 bolts or (b) any simple weapon",
+                    "(a) a component pouch or (b) an arcane focus",
+                    "(a) a dungeoneer's pack or (b) an explorer's pack",
+                    "two daggers",
+                    "leather armor"
+                ],
+                "goldAlternative": "{@dice 3d4 × 10} gp"
+            },
             "startingProficiencies": {
                 "armor": [
                     "Light armor"
@@ -398,7 +398,22 @@
                     "Constitution",
                     "Charisma"
                 ],
-                "tools": [
+                "skills": [
+                    {
+                        "choose": {
+                            "count": 2,
+                            "from": [
+                                "arcana",
+                                "deception",
+                                "insight",
+                                "intimidation",
+                                "medicine",
+                                "nature",
+                                "persuasion",
+                                "religion"
+                            ]
+                        }
+                    }
                 ],
                 "weapons": [
                     "Simple weapons"
