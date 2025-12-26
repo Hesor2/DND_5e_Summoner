@@ -426,6 +426,13 @@
             "classSource": "SummonerHB",
             "entries": [
                 "You have learned to channel magical power through your bond with your Eidolon. You use Charisma as your spellcasting ability (Spell Save DC = 8 + PB + CHA mod, Spell Attack = PB + CHA mod).",
+				{
+                    "entries": [
+                        "At 1st level, you know four cantrips of your choice from the summoner spell list. You learn an additional summoner cantrip of your choice at 4th level and another at 10th level."
+                    ],
+                    "name": "Cantrips",
+                    "type": "entries"
+                },
                 {
                     "entries": [
                         "The Summoner table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Summoner spells, you must expend a spell slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest."
@@ -435,12 +442,33 @@
                 },
                 {
                     "entries": [
-                        "You prepare the list of Summoner spells that are available for you to cast. To do so, choose a number of Summoner spells equal to your Charisma modifier + half your Summoner level (minimum of one spell).",
+                        "You prepare the list of {@filter summoner spells|spells|class=Summoner (SUM)} that are available for you to cast. To do so, choose a number of Summoner spells equal to your Charisma modifier + half your Summoner level (minimum of one spell).",
                         "You can change your list of prepared spells when you finish a long rest."
                     ],
                     "name": "Preparing and Casting Spells",
                     "type": "entries"
                 },
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Charisma is your spellcasting ability for your summoner spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				},
                 {
                     "entries": [
                         "You can cast a Summoner spell as a ritual if that spell has the ritual tag and you have it prepared."
