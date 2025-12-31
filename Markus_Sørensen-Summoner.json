@@ -77,6 +77,7 @@
                 "Mage Hand",
                 "Resistance",
                 "Thaumaturgy",
+                "Prestidigitation",
                 "Frostbite|XGE",
                 "Mind Sliver|TCE",
                 "Vicious Mockery",
@@ -88,6 +89,7 @@
                 "Detect Magic",
                 "Detect Evil and Good",
                 "Heroism",
+				"Identify",
                 "Protection from Evil and Good",
                 "Shield of Faith",
                 "Thunderous Smite",
@@ -426,7 +428,7 @@
             "classSource": "SummonerHB",
             "entries": [
                 "You have learned to channel magical power through your bond with your Eidolon. You use Charisma as your spellcasting ability (Spell Save DC = 8 + PB + CHA mod, Spell Attack = PB + CHA mod).",
-				{
+                {
                     "entries": [
                         "At 1st level, you know four cantrips of your choice from the summoner spell list. You learn an additional summoner cantrip of your choice at 4th level and another at 10th level."
                     ],
@@ -448,27 +450,27 @@
                     "name": "Preparing and Casting Spells",
                     "type": "entries"
                 },
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Charisma is your spellcasting ability for your summoner spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one.",
-						{
-							"type": "abilityDc",
-							"name": "Spell",
-							"attributes": [
-								"cha"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Spell",
-							"attributes": [
-								"cha"
-							]
-						}
-					]
-				},
+                {
+                    "entries": [
+                        "Charisma is your spellcasting ability for your summoner spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one.",
+                        {
+                            "attributes": [
+                                "cha"
+                            ],
+                            "name": "Spell",
+                            "type": "abilityDc"
+                        },
+                        {
+                            "attributes": [
+                                "cha"
+                            ],
+                            "name": "Spell",
+                            "type": "abilityAttackMod"
+                        }
+                    ],
+                    "name": "Spellcasting Ability",
+                    "type": "entries"
+                },
                 {
                     "entries": [
                         "You can cast a Summoner spell as a ritual if that spell has the ritual tag and you have it prepared."
