@@ -442,7 +442,8 @@
                 "You have learned to channel magical power through your bond with your Eidolon. You use Charisma as your spellcasting ability (Spell Save DC = 8 + PB + CHA mod, Spell Attack = PB + CHA mod).",
                 {
                     "entries": [
-                        "At 1st level, you know four cantrips of your choice from the summoner spell list. You learn an additional summoner cantrip of your choice at 4th level and another at 10th level."
+                        "At 1st level, you know four cantrips of your choice from the summoner spell list. You learn an additional summoner cantrip of your choice at 4th level and another at 10th level.",
+                        "Additionally, when you gain a level in this class, you can choose one of the summoner cantrips you know and replace it with another cantrip from the summoner spell list."
                     ],
                     "name": "Cantrips",
                     "type": "entries"
