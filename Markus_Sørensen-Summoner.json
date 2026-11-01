@@ -50,6 +50,7 @@
                 6
             ],
             "casterProgression": "1/2",
+            "preparedSpells": "<$cha_mod$> + <$level$> / 2",
             "classFeatures": [
                 "Spellcasting|Summoner|SummonerHB|1",
                 "Eidolon|Summoner|SummonerHB|1",
